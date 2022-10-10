@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+header, 
+main,
+footer {
+    font-family: 'Alkalami', serif;
+    background-color: rgba(145, 55, 229, 0.758);
+}
+
 img {
     max-width: 100%;
 }
@@ -43,6 +50,8 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 1rem;
+    font-size: 1.5rem;
 }
 /* #endregion Main */
 

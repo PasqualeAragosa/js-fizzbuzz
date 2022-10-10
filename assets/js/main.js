@@ -1,5 +1,6 @@
 const wrapperEl = document.querySelector('.wrapper');
 const ulEL = document.createElement('ul');
+ulEL.style.marginBottom = 0;
 wrapperEl.append(ulEL);
 
 
