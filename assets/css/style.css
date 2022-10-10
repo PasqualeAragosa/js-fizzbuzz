@@ -8,6 +8,17 @@
 img {
     max-width: 100%;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
 /* #endregion Common */
 
 /* #region Debug */
@@ -18,18 +29,23 @@ img {
 
 /* #endregion Utilities */
 
-/* #region Body */
-
 /* #region Header */
 
 /* #endregion Header */
 
 /* #region Main */
-
+li {
+    width: 120px;
+    height: 120px;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* #endregion Main */
 
 /* #region Footer */
 
 /* #endregion Footer */
-
-/* #endregion Body */
